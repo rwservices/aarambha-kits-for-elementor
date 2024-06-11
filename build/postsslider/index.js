@@ -64,7 +64,7 @@ __webpack_require__.r(__webpack_exports__);
 // Styles
 
 (function ($) {
-  'use strict';
+  "use strict";
 
   /**
    * All of the code for your public-facing JavaScript source
@@ -94,11 +94,11 @@ __webpack_require__.r(__webpack_exports__);
    * practising this, we should strive to set a better example in our own work.
    */
   var $widgetPostsSlider = function $widgetPostsSlider($scope, $) {
-    var $wid = $scope.data('id'),
-      $wclass = 'elementor-element-' + $wid;
-    $('.' + $wclass + ' .aarambha-kits-posts-slider-container').each(function (index, element) {
+    var $wid = $scope.data("id"),
+      $wclass = "elementor-element-" + $wid;
+    $("." + $wclass + " .aarambha-kits-posts-slider-container").each(function (index, element) {
       var $container = $(this),
-        $settings = $container.data('settings');
+        $settings = $container.data("settings");
       var $postsSliderOptions = {
         // Responsive breakpoints
         breakpoints: {
@@ -137,30 +137,30 @@ __webpack_require__.r(__webpack_exports__);
       // Enable navigation
       if ($settings.navigation) {
         $postsSliderOptions.navigation = {
-          nextEl: '.aarambha-kits-posts-slider-container .swiper-button-next',
-          prevEl: '.aarambha-kits-posts-slider-container .swiper-button-prev'
+          nextEl: ".aarambha-kits-posts-slider-container .swiper-button-next",
+          prevEl: ".aarambha-kits-posts-slider-container .swiper-button-prev"
         };
       }
 
       // Enable pagination
       if ($settings.pagination) {
         $postsSliderOptions.pagination = {
-          el: '.aarambha-kits-posts-slider-container .swiper-pagination',
-          type: 'bullets',
+          el: ".aarambha-kits-posts-slider-container .swiper-pagination",
+          type: "bullets",
           clickable: true
         };
       }
 
       // Slide Space
       $postsSliderOptions.spaceBetween = $settings.spaceBetween;
-      var $postsSlider = new Swiper('.' + $wclass + ' .aarambha-kits-posts-slider-container .posts-swiper-slider', $postsSliderOptions);
+      var $postsSlider = new Swiper("." + $wclass + " .aarambha-kits-posts-slider-container .posts-swiper-slider", $postsSliderOptions);
 
       // Pause On Hover
       if ($settings.pause === true) {
-        $('.' + $wclass + ' .aarambha-kits-posts-slider-container .aarambha-kits-posts-wrapper').mouseenter(function () {
+        $("." + $wclass + " .aarambha-kits-posts-slider-container .aarambha-kits-posts-wrapper").mouseenter(function () {
           $postsSlider.autoplay.stop();
         });
-        $('.' + $wclass + ' .aarambha-kits-posts-slider-container .aarambha-kits-posts-wrapper').mouseleave(function () {
+        $("." + $wclass + " .aarambha-kits-posts-slider-container .aarambha-kits-posts-wrapper").mouseleave(function () {
           $postsSlider.autoplay.start();
         });
       }
@@ -168,8 +168,8 @@ __webpack_require__.r(__webpack_exports__);
   };
 
   // Run this code under Elementor.
-  $(window).on('elementor/frontend/init', function () {
-    elementorFrontend.hooks.addAction('frontend/element_ready/aarambha-kits-block-posts-slider.default', $widgetPostsSlider); // Posts Slider
+  $(window).on("elementor/frontend/init", function () {
+    elementorFrontend.hooks.addAction("frontend/element_ready/aarambha-kits-block-posts-slider.default", $widgetPostsSlider); // Posts Slider
   });
 })(jQuery);
 }();

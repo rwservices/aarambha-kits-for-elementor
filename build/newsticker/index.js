@@ -64,7 +64,7 @@ __webpack_require__.r(__webpack_exports__);
 // Styles
 
 (function ($) {
-  'use strict';
+  "use strict";
 
   /**
    * All of the code for your public-facing JavaScript source
@@ -94,16 +94,16 @@ __webpack_require__.r(__webpack_exports__);
    * practising this, we should strive to set a better example in our own work.
    */
   var $widgetNewsTicker = function $widgetNewsTicker($scope, $) {
-    var $wid = $scope.data('id'),
-      $wclass = 'elementor-element-' + $wid;
-    $('.' + $wclass + ' .aarambha-kits-block-news-ticker-container').each(function (index, element) {
+    var $wid = $scope.data("id"),
+      $wclass = "elementor-element-" + $wid;
+    $("." + $wclass + " .aarambha-kits-block-news-ticker-container").each(function (index, element) {
       var $container = $(this),
-        $settings = $container.data('settings'),
-        $holder = $container.find('.aarambha-kits-news-ticker-wrap .aarambha-kits-posts-list');
+        $settings = $container.data("settings"),
+        $holder = $container.find(".aarambha-kits-news-ticker-wrap .aarambha-kits-posts-list");
       var $sliderAttrs = {
         row_height: 30,
         max_rows: 1,
-        direction: 'up',
+        direction: "up",
         autostart: 1,
         pauseOnHover: 1
       };
@@ -121,8 +121,8 @@ __webpack_require__.r(__webpack_exports__);
   };
 
   // Run this code under Elementor.
-  $(window).on('elementor/frontend/init', function () {
-    elementorFrontend.hooks.addAction('frontend/element_ready/aarambha-kits-block-news-ticker.default', $widgetNewsTicker); // Hero Slider
+  $(window).on("elementor/frontend/init", function () {
+    elementorFrontend.hooks.addAction("frontend/element_ready/aarambha-kits-block-news-ticker.default", $widgetNewsTicker); // Hero Slider
   });
 })(jQuery);
 }();

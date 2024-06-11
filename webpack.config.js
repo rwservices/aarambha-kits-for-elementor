@@ -21,6 +21,7 @@ module.exports = [
       "dashboard/index": "./src/dashboard/index.js",
       "eicons/index": "./src/eicons/index.js",
       "featuredpost/index": "./src/featuredpost/index.js",
+      "imageupload/index": "./src/imageupload/index.js",
       "heroslider/index": "./src/heroslider/index.js",
       "newsticker/index": "./src/newsticker/index.js",
       "postslayout1/index": "./src/postslayout1/index.js",

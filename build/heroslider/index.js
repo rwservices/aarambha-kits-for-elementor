@@ -64,7 +64,7 @@ __webpack_require__.r(__webpack_exports__);
 // Styles
 
 (function ($) {
-  'use strict';
+  "use strict";
 
   /**
    * All of the code for your public-facing JavaScript source
@@ -94,11 +94,11 @@ __webpack_require__.r(__webpack_exports__);
    * practising this, we should strive to set a better example in our own work.
    */
   var $widgetHeroSlider = function $widgetHeroSlider($scope, $) {
-    var $wid = $scope.data('id'),
-      $wclass = 'elementor-element-' + $wid;
-    $('.' + $wclass + ' .aarambha-kits-hero-slider-container').each(function (index, element) {
+    var $wid = $scope.data("id"),
+      $wclass = "elementor-element-" + $wid;
+    $("." + $wclass + " .aarambha-kits-hero-slider-container").each(function (index, element) {
       var $container = $(this),
-        $settings = $container.data('settings');
+        $settings = $container.data("settings");
       var $HeroSwiperOptions = {
         speed: $settings.speed,
         effect: $settings.effect,
@@ -121,27 +121,27 @@ __webpack_require__.r(__webpack_exports__);
       // Enable navigation
       if ($settings.navigation) {
         $HeroSwiperOptions.navigation = {
-          prevEl: '.aarambha-kits-hero-slider-container .hero-swiper-button-prev',
-          nextEl: '.aarambha-kits-hero-slider-container .hero-swiper-button-next'
+          prevEl: ".aarambha-kits-hero-slider-container .hero-swiper-button-prev",
+          nextEl: ".aarambha-kits-hero-slider-container .hero-swiper-button-next"
         };
       }
 
       // Enable pagination
       if ($settings.pagination) {
         $HeroSwiperOptions.pagination = {
-          el: '.aarambha-kits-hero-slider-container .swiper-pagination',
-          type: 'bullets',
+          el: ".aarambha-kits-hero-slider-container .swiper-pagination",
+          type: "bullets",
           clickable: true
         };
       }
-      var $HeroSwiper = new Swiper('.' + $wclass + ' .aarambha-kits-hero-slider-container .swiper-container', $HeroSwiperOptions);
+      var $HeroSwiper = new Swiper("." + $wclass + " .aarambha-kits-hero-slider-container .swiper-container", $HeroSwiperOptions);
 
       // Pause On Hover
       if ($settings.pause === true) {
-        $('.' + $wclass + ' .aarambha-kits-hero-slider-container .swiper-container').mouseenter(function () {
+        $("." + $wclass + " .aarambha-kits-hero-slider-container .swiper-container").mouseenter(function () {
           $HeroSwiper.autoplay.stop();
         });
-        $('.' + $wclass + ' .aarambha-kits-hero-slider-container .swiper-container').mouseleave(function () {
+        $("." + $wclass + " .aarambha-kits-hero-slider-container .swiper-container").mouseleave(function () {
           $HeroSwiper.autoplay.start();
         });
       }
@@ -149,8 +149,8 @@ __webpack_require__.r(__webpack_exports__);
   };
 
   // Run this code under Elementor.
-  $(window).on('elementor/frontend/init', function () {
-    elementorFrontend.hooks.addAction('frontend/element_ready/aarambha-kits-block-hero-slider.default', $widgetHeroSlider); // Hero Slider
+  $(window).on("elementor/frontend/init", function () {
+    elementorFrontend.hooks.addAction("frontend/element_ready/aarambha-kits-block-hero-slider.default", $widgetHeroSlider); // Hero Slider
   });
 })(jQuery);
 }();
