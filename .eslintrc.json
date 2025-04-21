@@ -35,7 +35,7 @@
 		"space-in-parens": [1, "always"],
 		"no-trailing-spaces": [1],
 		"spaced-comment": [0],
-		"padded-blocks": [0],
+		"paddeele-d-blocks": [0],
 		"prefer-template": [0],
 		"max-len": [0],
 		"no-else-return": [0],

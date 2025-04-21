@@ -275,7 +275,7 @@ class Aarambha_Kits_Admin {
 		$style_list = array(
 
 			$this->plugin_name => array(
-				'src'     => AARAMBHA_KITS_URL . 'assets/build/css/main.css',
+				'src'     => AARAMBHA_KITS_URL . 'build/dashboard/index.css',
 				'version' => AARAMBHA_KITS_VERSION,
 				'deps'    => array( 'wp-components' ),
 			),
@@ -293,7 +293,7 @@ class Aarambha_Kits_Admin {
 
 		$script_list = array(
 			$this->plugin_name          => array(
-				'src'       => AARAMBHA_KITS_URL . 'assets/build/js/main.js',
+				'src'       => AARAMBHA_KITS_URL . 'build/dashboard/index.js',
 				'version'   => AARAMBHA_KITS_VERSION,
 				'deps'      => array( 'lodash', 'wp-api-fetch', 'wp-i18n', 'wp-components', 'wp-element' ),
 				'condition' => array( 'aarambha-kits_page_aarambha-kits-settings' ),

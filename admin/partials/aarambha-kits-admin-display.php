@@ -19,7 +19,7 @@
 			<div class="aarambha-kits-plugin-header">
 
 				<div class="aarambha-kits-plugin-logo">
-					<img src="<?php echo AARAMBHA_KITS_URL . 'assets/build/images/logo.gif'; ?>">
+					<img src="<?php echo AARAMBHA_KITS_URL . 'images/logo.gif'; ?>">
 				</div>
 
 				<h2 class="aarambha-kits-plugin-header-title">
@@ -48,7 +48,7 @@
 		<section>
 			<div class="container">
 				<div class="col col-image">
-					<img src="<?php echo AARAMBHA_KITS_URL . 'assets/build/images/page-post.png'; ?>">
+					<img src="<?php echo AARAMBHA_KITS_URL . 'images/page-post.png'; ?>">
 				</div>
 				<div class="col">
 					<div class="aarambha-kits-get-started-content">
@@ -73,7 +73,7 @@
 		<section>
 			<div class="container">
 				<div class="col col-image">
-					<img src="<?php echo AARAMBHA_KITS_URL . 'assets/build/images/start-designing.png'; ?>" />
+					<img src="<?php echo AARAMBHA_KITS_URL . 'images/start-designing.png'; ?>" />
 				</div>
 				<div class="col">
 					<div class="aarambha-kits-get-started-content">
@@ -88,7 +88,7 @@
 		<section>
 			<div class="container">
 				<div class="col col-image">
-					<img src="<?php echo AARAMBHA_KITS_URL . 'assets/build/images/widget-designing.png'; ?>">
+					<img src="<?php echo AARAMBHA_KITS_URL . 'images/widget-designing.png'; ?>">
 				</div>
 				<div class="col">
 					<div class="aarambha-kits-get-started-content">

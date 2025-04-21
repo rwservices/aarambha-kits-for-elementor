@@ -356,7 +356,7 @@ Copyright Sergio kallookoo
 License: GPLv2 or later - https://github.com/kallookoo/wp-color-picker-alpha/blob/master/LICENSE
 Source: https://github.com/kallookoo/wp-color-picker-alpha
 
-All images in assets/build/images
+All images in images
 
 block-element-1.png
 block-element-2.png

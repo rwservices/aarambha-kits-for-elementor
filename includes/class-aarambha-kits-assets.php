@@ -136,7 +136,7 @@ class Aarambha_Kits_Assets {
 	public function elementor_enqueue_style() {
 
 		// Enqueue the main Elementor CSS file for use with Elementor.
-		wp_enqueue_style( 'aarambha-kits-elementor', AARAMBHA_KITS_URL . 'assets/build/css/eicons.css', array(), AARAMBHA_KITS_VERSION );
+		wp_enqueue_style( 'aarambha-kits-elementor', AARAMBHA_KITS_URL . 'build/eicons/index.css', array(), AARAMBHA_KITS_VERSION );
 	}
 
 	/**

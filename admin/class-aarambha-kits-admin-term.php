@@ -225,11 +225,11 @@ class Aarambha_Kits_Admin_Term {
 		wp_enqueue_media();
 
 		// Enqueue Style
-		wp_enqueue_style( 'aarambha-kits-term', AARAMBHA_KITS_URL . 'assets/build/css/term.css', array( 'wp-color-picker' ), AARAMBHA_KITS_VERSION, 'all' );
+		wp_enqueue_style( 'aarambha-kits-term', AARAMBHA_KITS_URL . 'build/term/index.css', array( 'wp-color-picker' ), AARAMBHA_KITS_VERSION, 'all' );
 
 		// Enqueue Script
-		wp_enqueue_script( 'wp-color-picker-alpha', AARAMBHA_KITS_URL . 'assets/build/library/wp-color-picker-alpha/wp-color-picker-alpha.js', array( 'jquery', 'wp-color-picker' ), '3.0.2', true );
-		wp_enqueue_script( 'aarambha-kits-term', AARAMBHA_KITS_URL . 'assets/build/js/term.js', array( 'wp-color-picker-alpha' ), AARAMBHA_KITS_VERSION, true );
+		wp_enqueue_script( 'wp-color-picker-alpha', AARAMBHA_KITS_URL . 'library/wp-color-picker-alpha/wp-color-picker-alpha.js', array( 'jquery', 'wp-color-picker' ), '3.0.2', true );
+		wp_enqueue_script( 'aarambha-kits-term', AARAMBHA_KITS_URL . 'build/term/index.js', array( 'wp-color-picker-alpha' ), AARAMBHA_KITS_VERSION, true );
 
 		$locale = apply_filters(
 			'aarambha_kits_term_var',
