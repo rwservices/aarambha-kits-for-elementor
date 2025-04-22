@@ -1,17 +1,16 @@
-# Copyright (C) 2022 Aarambha Themes
-# This file is distributed under the same license as the Aarambha Kits for Elementor package.
+# <!=Copyright (C) 2025 Aarambha Themes
+# This file is distributed under the same license as the  package.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: Aarambha Kits for Elementor 1.0.1\n"
-"Report-Msgid-Bugs-To: "
-"https://wordpress.org/support/plugin/aarambha-kits-for-elementor\n"
-"POT-Creation-Date: 2022-12-09 10:34:24+00:00\n"
+"Project-Id-Version: 1.0.3\n"
+"Report-Msgid-Bugs-To: https://example.com/support\n"
+"POT-Creation-Date: 2025-04-22T06:58:46.688Z\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Your Team <team@example.com>\n"
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Country: United States\n"
@@ -25,25 +24,25 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 "X-Generator: grunt-wp-i18n 1.0.3\n"
 
-#: admin/class-aarambha-kits-admin-term.php:70
-#: admin/class-aarambha-kits-admin-term.php:132
+#: admin/class-aarambha-kits-admin-term.php:74
+#: admin/class-aarambha-kits-admin-term.php:137
 msgid "Feature Image"
 msgstr ""
 
-#: admin/class-aarambha-kits-admin-term.php:108
-#: admin/class-aarambha-kits-admin-term.php:184
-#: includes/elementor/widgets/base-widget.php:309
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:402
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:727
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:761
+#: admin/class-aarambha-kits-admin-term.php:112
+#: admin/class-aarambha-kits-admin-term.php:191
+#: includes/elementor/widgets/base-widget.php:306
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:403
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:728
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:762
 msgid "Background Color"
 msgstr ""
 
-#: admin/class-aarambha-kits-admin-term.php:237
+#: admin/class-aarambha-kits-admin-term.php:248
 msgid "Choose Image"
 msgstr ""
 
-#: admin/class-aarambha-kits-admin-term.php:238
+#: admin/class-aarambha-kits-admin-term.php:249
 msgid "Select"
 msgstr ""
 
@@ -60,7 +59,10 @@ msgstr ""
 msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
 msgstr ""
 
-#. Plugin Name of the plugin/theme
+#: admin/class-aarambha-kits-admin.php:142
+#: admin/class-aarambha-kits-admin.php:162
+#: admin/class-aarambha-kits-admin.php:180
+#: includes/elementor/class-aarambha-kits-elementor-category.php:56
 msgid "Aarambha Kits for Elementor"
 msgstr ""
 
@@ -97,65 +99,65 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:26
+#: admin/partials/aarambha-kits-admin-display.php:27
 msgid "Getting Started To Aarambha Kits For Elementor"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:30
+#: admin/partials/aarambha-kits-admin-display.php:31
 msgid "WordPress Page Builder"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:34
+#: admin/partials/aarambha-kits-admin-display.php:36
 msgid "Documentation"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:38
+#: admin/partials/aarambha-kits-admin-display.php:40
 msgid "Aarambha Kits Demo"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:42
+#: admin/partials/aarambha-kits-admin-display.php:45
 msgid "Buy Pro"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:55
+#: admin/partials/aarambha-kits-admin-display.php:58
 msgid "1. Add New Page/Post"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:56
+#: admin/partials/aarambha-kits-admin-display.php:59
 msgid "Here is the steps to add page/post in WordPress"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:57
+#: admin/partials/aarambha-kits-admin-display.php:61
 msgid "Adding Page"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:59
+#: admin/partials/aarambha-kits-admin-display.php:63
 msgid "Go to Pages => Add New"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:60
-#: admin/partials/aarambha-kits-admin-display.php:65
+#: admin/partials/aarambha-kits-admin-display.php:64
+#: admin/partials/aarambha-kits-admin-display.php:71
 msgid "OR"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:60
-#: admin/partials/aarambha-kits-admin-display.php:65
+#: admin/partials/aarambha-kits-admin-display.php:66
+#: admin/partials/aarambha-kits-admin-display.php:73
 msgid "Click here"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:62
+#: admin/partials/aarambha-kits-admin-display.php:68
 msgid "Adding Post"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:64
+#: admin/partials/aarambha-kits-admin-display.php:70
 msgid "Go to Posts => Add New"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:80
+#: admin/partials/aarambha-kits-admin-display.php:88
 msgid "2. Start Designing"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:81
+#: admin/partials/aarambha-kits-admin-display.php:89
 msgid ""
 "Aarambha Kits provide additional elementor custom widgets. Edit page with "
 "Elementor to get an in-depth understanding of Aarambha Kits classification. "
@@ -163,49 +165,49 @@ msgid ""
 "of widgets options."
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:82
+#: admin/partials/aarambha-kits-admin-display.php:91
 msgid "After Adding a Elementor Widget in the editor, It is ready to Design."
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:95
+#: admin/partials/aarambha-kits-admin-display.php:105
 msgid "3. Designing Widget"
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:96
+#: admin/partials/aarambha-kits-admin-display.php:106
 msgid "After Adding a Widgets in the editor, It is ready to Design."
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:97
+#: admin/partials/aarambha-kits-admin-display.php:108
 msgid ""
 "On the left sidebar of the Edit screen, you will find settings for the "
 "respective widget."
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:99
+#: admin/partials/aarambha-kits-admin-display.php:111
 msgid "Content: "
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:99
+#: admin/partials/aarambha-kits-admin-display.php:111
 msgid ""
 "It consists set of options related to content render. e.g enabl/disable "
 "elements, sorting elements, content query loop and so on."
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:100
+#: admin/partials/aarambha-kits-admin-display.php:113
 msgid "Style: "
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:100
+#: admin/partials/aarambha-kits-admin-display.php:113
 msgid ""
 "It consists set of options to design widgets element. e.g color, "
 "typography, margin, padding and so on."
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:101
+#: admin/partials/aarambha-kits-admin-display.php:115
 msgid "Advanced: "
 msgstr ""
 
-#: admin/partials/aarambha-kits-admin-display.php:101
+#: admin/partials/aarambha-kits-admin-display.php:115
 msgid "It consists of set of Advanced Setting which effect whole Widget Section."
 msgstr ""
 
@@ -224,173 +226,173 @@ msgstr ""
 msgid "<span class=\"post-views\">%s Views</span>"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:60
-#: includes/elementor/widgets/base-widget.php:245
+#: includes/elementor/widgets/base-widget.php:62
+#: includes/elementor/widgets/base-widget.php:246
 #: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:52
-#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:132
-#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:143
+#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:133
+#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:144
 msgid "Block Heading"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:70
-#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:142
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:220
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:219
+#: includes/elementor/widgets/base-widget.php:72
+#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:143
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:221
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:220
 msgid "Text"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:79
-#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:152
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:152
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:289
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:151
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:248
+#: includes/elementor/widgets/base-widget.php:81
+#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:153
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:153
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:290
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:152
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:249
 msgid "Icon"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:89
-#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:162
+#: includes/elementor/widgets/base-widget.php:91
+#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:163
 msgid "Icon Position"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:93
-#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:166
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:330
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:289
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:432
+#: includes/elementor/widgets/base-widget.php:95
+#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:167
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:331
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:290
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:433
 msgid "Left"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:94
-#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:167
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:334
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:440
+#: includes/elementor/widgets/base-widget.php:96
+#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:168
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:335
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:441
 msgid "Right"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:107
-#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:180
+#: includes/elementor/widgets/base-widget.php:109
+#: includes/elementor/widgets/class-aarambha-kits-block-element-1.php:181
 msgid "Separator"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:124
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:141
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:143
+#: includes/elementor/widgets/base-widget.php:127
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:142
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:144
 msgid "WP Query"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:133
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:223
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:531
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:243
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:551
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:150
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:324
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:678
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:232
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:588
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:152
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:326
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:594
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:260
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:528
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:262
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:569
+#: includes/elementor/widgets/base-widget.php:136
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:224
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:532
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:244
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:552
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:151
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:325
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:679
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:233
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:589
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:153
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:327
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:595
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:261
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:529
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:263
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:570
 msgid "Categories"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:146
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:163
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:165
+#: includes/elementor/widgets/base-widget.php:149
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:164
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:166
 msgid "Tags"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:159
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:176
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:178
+#: includes/elementor/widgets/base-widget.php:162
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:177
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:179
 msgid "Posts Exclude"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:160
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:177
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:179
+#: includes/elementor/widgets/base-widget.php:163
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:178
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:180
 msgid "To exclude the posts, enter post ids with comma separator. Ex:- 11,12,13..."
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:161
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:178
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:180
+#: includes/elementor/widgets/base-widget.php:164
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:179
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:181
 msgid "Ex:- 11,12,13..."
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:171
+#: includes/elementor/widgets/base-widget.php:174
 #: includes/widgets/class-aarambha-kits-block-widget-4.php:51
 #: includes/widgets/class-aarambha-kits-block-widget-5.php:41
 msgid "Posts Limit"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:183
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:188
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:190
+#: includes/elementor/widgets/base-widget.php:186
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:189
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:191
 msgid "Posts Offset"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:198
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:203
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:205
+#: includes/elementor/widgets/base-widget.php:201
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:204
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:206
 msgid "Order By"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:203
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:208
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:210
+#: includes/elementor/widgets/base-widget.php:206
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:209
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:211
 msgid "Post Id"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:204
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:209
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:211
+#: includes/elementor/widgets/base-widget.php:207
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:210
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:212
 msgid "Post Author"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:205
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:174
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:221
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:413
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:692
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:194
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:241
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:433
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:712
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:164
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:424
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:163
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:383
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:269
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:210
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:275
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:322
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:600
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:839
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:230
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:265
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:510
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:674
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:243
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:481
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:212
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:277
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:324
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:516
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:755
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:211
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:258
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:450
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:614
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:213
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:260
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:452
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:655
+#: includes/elementor/widgets/base-widget.php:208
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:175
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:222
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:414
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:693
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:195
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:242
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:434
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:713
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:165
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:425
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:164
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:384
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:270
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:211
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:276
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:323
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:601
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:840
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:231
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:266
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:511
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:675
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:244
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:482
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:213
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:278
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:325
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:517
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:756
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:212
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:259
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:451
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:615
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:214
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:261
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:453
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:656
 #: includes/widgets/class-aarambha-kits-block-widget-1.php:36
 #: includes/widgets/class-aarambha-kits-block-widget-2.php:36
 #: includes/widgets/class-aarambha-kits-block-widget-3.php:36
@@ -399,122 +401,122 @@ msgstr ""
 msgid "Title"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:206
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:279
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:299
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:355
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:211
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:379
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:318
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:213
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:382
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:316
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:318
+#: includes/elementor/widgets/base-widget.php:209
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:280
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:300
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:356
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:212
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:380
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:319
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:214
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:383
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:317
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:319
 msgid "Date"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:207
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:212
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:214
+#: includes/elementor/widgets/base-widget.php:210
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:213
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:215
 msgid "Last Modified Date"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:208
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:213
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:215
+#: includes/elementor/widgets/base-widget.php:211
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:214
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:216
 msgid "Parent Id"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:209
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:214
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:216
+#: includes/elementor/widgets/base-widget.php:212
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:215
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:217
 msgid "Random"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:210
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:215
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:217
+#: includes/elementor/widgets/base-widget.php:213
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:216
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:218
 msgid "Comment Count"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:211
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:216
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:218
+#: includes/elementor/widgets/base-widget.php:214
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:217
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:219
 msgid "Menu Order"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:221
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:226
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:228
+#: includes/elementor/widgets/base-widget.php:224
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:227
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:229
 msgid "Order"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:225
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:230
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:232
+#: includes/elementor/widgets/base-widget.php:228
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:231
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:233
 msgid "Ascending"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:226
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:231
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:233
+#: includes/elementor/widgets/base-widget.php:229
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:232
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:234
 msgid "Descending"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:254
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:340
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:540
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:360
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:560
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:258
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:298
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:433
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:494
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:555
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:257
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:392
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:453
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:514
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:278
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:367
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:464
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:532
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:687
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:424
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:597
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:466
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:591
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:443
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:603
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:377
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:537
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:379
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:578
+#: includes/elementor/widgets/base-widget.php:255
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:341
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:541
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:361
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:561
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:259
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:299
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:434
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:495
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:556
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:258
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:393
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:454
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:515
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:279
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:368
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:465
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:533
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:688
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:425
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:598
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:467
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:592
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:444
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:604
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:378
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:538
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:380
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:579
 msgid "Padding"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:267
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:311
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:446
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:507
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:568
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:270
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:405
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:466
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:527
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:477
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:437
+#: includes/elementor/widgets/base-widget.php:268
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:312
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:447
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:508
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:569
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:271
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:406
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:467
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:528
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:478
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:438
 msgid "Margin"
 msgstr ""
 
-#: includes/elementor/widgets/base-widget.php:291
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:370
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:329
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:872
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:899
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:715
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:749
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:792
+#: includes/elementor/widgets/base-widget.php:292
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:371
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:330
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:873
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:900
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:716
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:750
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:793
 msgid "Color"
 msgstr ""
 
@@ -522,58 +524,46 @@ msgstr ""
 msgid "Block Posts 4"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:144
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:331
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:144
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:351
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:142
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:141
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:158
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:245
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:431
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:163
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:159
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:247
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:434
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:143
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:368
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:144
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:370
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:145
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:332
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:145
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:352
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:143
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:142
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:159
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:246
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:432
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:164
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:160
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:248
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:435
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:144
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:369
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:145
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:371
 msgid "Content"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:153
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:491
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:153
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:511
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:254
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:172
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:181
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:256
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:530
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:154
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:492
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:154
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:512
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:255
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:173
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:182
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:257
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:531
 msgid "Image"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:185
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:205
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:286
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:276
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:288
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:222
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:224
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:186
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:206
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:287
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:277
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:289
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:223
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:225
 msgid "HTML Tag"
-msgstr ""
-
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:188
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:208
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:189
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:188
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:289
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:279
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:291
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:225
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:227
-msgid "H1"
 msgstr ""
 
 #: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:189
@@ -585,7 +575,7 @@ msgstr ""
 #: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:292
 #: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:226
 #: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:228
-msgid "H2"
+msgid "H1"
 msgstr ""
 
 #: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:190
@@ -597,7 +587,7 @@ msgstr ""
 #: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:293
 #: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:227
 #: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:229
-msgid "H3"
+msgid "H2"
 msgstr ""
 
 #: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:191
@@ -609,7 +599,7 @@ msgstr ""
 #: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:294
 #: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:228
 #: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:230
-msgid "H4"
+msgid "H3"
 msgstr ""
 
 #: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:192
@@ -621,7 +611,7 @@ msgstr ""
 #: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:295
 #: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:229
 #: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:231
-msgid "H5"
+msgid "H4"
 msgstr ""
 
 #: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:193
@@ -633,385 +623,397 @@ msgstr ""
 #: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:296
 #: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:230
 #: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:232
+msgid "H5"
+msgstr ""
+
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:194
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:214
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:195
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:194
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:295
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:285
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:297
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:231
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:233
 msgid "H6"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:204
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:224
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:305
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:213
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:307
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:241
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:243
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:205
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:225
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:306
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:214
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:308
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:242
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:244
 msgid "Content Structure"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:218
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:238
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:319
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:227
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:321
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:255
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:257
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:219
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:239
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:320
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:228
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:322
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:256
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:258
 msgid "Element"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:222
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:256
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:438
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:878
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:242
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:276
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:458
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:898
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:323
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:356
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:625
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:1025
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:231
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:295
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:535
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:785
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:325
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:359
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:541
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:941
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:259
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:293
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:475
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:725
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:261
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:295
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:477
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:766
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:223
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:257
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:439
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:879
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:243
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:277
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:459
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:899
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:324
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:357
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:626
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:1026
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:232
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:296
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:536
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:786
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:326
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:360
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:542
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:942
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:260
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:294
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:476
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:726
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:262
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:296
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:478
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:767
 msgid "Meta"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:224
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:463
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:839
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:244
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:483
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:859
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:325
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:650
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:986
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:233
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:560
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:746
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:327
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:566
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:902
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:261
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:500
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:686
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:263
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:502
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:727
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:225
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:464
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:840
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:245
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:484
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:860
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:326
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:651
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:987
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:234
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:561
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:747
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:328
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:567
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:903
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:262
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:501
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:687
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:264
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:503
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:728
 msgid "Excerpt"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:234
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:254
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:243
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:337
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:271
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:273
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:235
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:255
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:244
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:338
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:272
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:274
 msgid "Element Order"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:267
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:287
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:367
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:306
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:370
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:304
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:306
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:268
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:288
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:368
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:307
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:371
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:305
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:307
 msgid "Author"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:291
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:311
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:391
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:330
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:394
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:328
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:330
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:292
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:312
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:392
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:331
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:395
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:329
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:331
 msgid "Comments"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:303
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:323
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:403
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:342
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:406
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:340
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:342
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:304
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:324
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:404
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:343
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:407
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:341
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:343
 msgid "Post Views"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:315
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:335
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:415
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:354
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:418
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:352
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:354
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:316
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:336
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:416
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:355
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:419
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:353
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:355
 msgid "Read Time"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:355
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:375
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:273
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:384
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:615
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:674
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:343
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:574
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:633
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:254
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:491
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:546
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:452
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:638
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:673
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:458
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:392
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:394
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:356
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:376
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:274
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:385
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:616
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:675
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:344
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:575
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:634
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:255
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:492
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:547
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:453
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:639
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:674
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:459
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:393
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:395
 msgid "Background"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:368
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:388
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:244
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:465
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:457
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:471
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:405
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:407
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:369
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:389
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:245
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:466
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:458
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:472
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:406
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:408
 msgid "Text Shadow"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:377
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:397
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:378
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:398
 msgid "Featured Post"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:388
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:408
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:575
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:485
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:491
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:425
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:427
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:389
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:409
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:576
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:486
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:492
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:426
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:428
 msgid "Category"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:389
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:414
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:439
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:464
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:409
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:434
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:459
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:484
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:576
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:601
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:626
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:651
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:486
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:511
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:536
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:561
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:492
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:517
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:542
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:567
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:426
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:451
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:476
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:501
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:428
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:453
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:478
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:503
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:390
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:415
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:440
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:465
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:410
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:435
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:460
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:485
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:577
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:602
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:627
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:652
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:487
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:512
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:537
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:562
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:493
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:518
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:543
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:568
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:427
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:452
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:477
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:502
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:429
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:454
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:479
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:504
 msgid "Set bottom spacing."
-msgstr ""
-
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:499
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:519
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:538
-msgid "Width"
 msgstr ""
 
 #: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:500
 #: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:520
 #: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:539
+msgid "Width"
+msgstr ""
+
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:501
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:521
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:540
 msgid "Set list view featured image width."
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:567
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:714
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:587
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:734
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:443
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:714
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:861
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:630
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:777
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:568
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:715
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:588
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:735
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:444
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:715
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:862
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:631
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:778
 msgid "FEATURED POST"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:575
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:605
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:722
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:752
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:897
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:595
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:625
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:742
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:772
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:917
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:722
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:752
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:869
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:899
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:1044
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:638
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:668
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:785
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:815
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:960
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:744
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:785
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:576
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:606
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:723
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:753
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:898
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:596
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:626
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:743
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:773
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:918
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:723
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:753
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:870
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:900
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:1045
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:639
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:669
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:786
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:816
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:961
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:745
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:786
 msgid "Font Size"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:597
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:744
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:617
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:764
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:506
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:744
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:891
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:660
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:807
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:598
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:745
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:618
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:765
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:507
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:745
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:892
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:661
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:808
 msgid "LIST POST"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:641
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:788
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:921
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:661
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:808
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:941
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:594
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:553
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:303
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:788
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:935
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:1068
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:623
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:695
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:806
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:617
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:704
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:851
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:984
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:563
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:635
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:768
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:604
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:676
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:809
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:642
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:789
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:922
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:662
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:809
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:942
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:595
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:554
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:304
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:789
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:936
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:1069
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:624
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:696
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:807
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:618
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:705
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:852
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:985
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:564
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:636
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:769
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:605
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:677
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:810
 msgid "NORMAL"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:649
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:671
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:796
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:818
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:857
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:929
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:952
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:669
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:691
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:816
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:838
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:877
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:949
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:972
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:469
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:530
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:602
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:661
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:428
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:489
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:561
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:620
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:796
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:818
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:943
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:965
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:1004
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:1076
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:1099
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:631
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:653
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:703
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:725
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:764
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:814
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:837
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:712
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:734
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:859
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:881
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:920
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:992
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:1015
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:571
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:593
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:643
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:665
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:704
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:776
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:799
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:612
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:634
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:684
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:706
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:745
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:817
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:840
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:650
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:672
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:797
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:819
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:858
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:930
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:953
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:670
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:692
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:817
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:839
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:878
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:950
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:973
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:470
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:531
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:603
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:662
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:429
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:490
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:562
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:621
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:797
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:819
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:944
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:966
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:1005
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:1077
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:1100
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:632
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:654
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:704
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:726
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:765
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:815
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:838
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:713
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:735
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:860
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:882
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:921
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:993
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:1016
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:572
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:594
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:644
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:666
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:705
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:777
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:800
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:613
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:635
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:685
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:707
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:746
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:818
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:841
 msgid "Font Color"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:663
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:810
-#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:944
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:683
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:830
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:964
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:653
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:612
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:325
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:810
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:957
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:1091
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:645
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:717
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:829
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:652
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:726
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:873
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:1007
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:585
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:657
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:791
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:626
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:698
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:832
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:664
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:811
+#: includes/elementor/widgets/class-aarambha-kits-block-element-10.php:945
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:684
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:831
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:965
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:654
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:613
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:326
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:811
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:958
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:1092
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:646
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:718
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:830
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:653
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:727
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:874
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:1008
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:586
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:658
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:792
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:627
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:699
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:833
 msgid "HOVER"
 msgstr ""
 
@@ -1019,10 +1021,10 @@ msgstr ""
 msgid "Block Posts 5"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:174
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:193
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:191
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:193
+#: includes/elementor/widgets/class-aarambha-kits-block-element-11.php:175
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:194
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:192
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:194
 msgid "Image Ratio"
 msgstr ""
 
@@ -1030,85 +1032,85 @@ msgstr ""
 msgid "Block CTA"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:167
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:168
 msgid "Upto 50% Discount"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:175
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:485
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:174
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:444
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:254
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:532
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:176
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:486
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:175
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:445
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:255
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:533
 #: includes/widgets/class-aarambha-kits-block-widget-1.php:51
 msgid "Description"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:178
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:179
 msgid ""
 "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo "
 "ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient "
 "montes, nascetur ridiculus mus."
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:186
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:185
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:187
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:186
 msgid "Title HTML Tag"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:211
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:546
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:210
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:505
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:265
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:296
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:302
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:308
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:582
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:212
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:547
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:211
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:506
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:266
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:297
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:303
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:309
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:583
 msgid "Button"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:223
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:224
 msgid "Shop Now"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:231
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:230
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:232
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:231
 msgid "URL"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:249
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:250
 msgid "Inner Container"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:325
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:284
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:451
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:513
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:326
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:285
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:452
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:514
 msgid "Position"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:345
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:304
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:192
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:346
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:305
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:193
 msgid "Size"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:397
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:628
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:687
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:356
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:587
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:646
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:398
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:629
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:688
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:357
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:588
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:647
 msgid "Border"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:407
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:638
-#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:697
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:366
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:597
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:656
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:408
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:639
+#: includes/elementor/widgets/class-aarambha-kits-block-element-15.php:698
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:367
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:598
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:657
 msgid "Border Radius"
 msgstr ""
 
@@ -1116,22 +1118,22 @@ msgstr ""
 msgid "Block Service"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:166
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:167
 msgid "Trendy Design"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:177
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:178
 msgid ""
 "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo "
 "ligula eget dolor."
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:222
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:223
 msgid "Discover"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:293
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:404
+#: includes/elementor/widgets/class-aarambha-kits-block-element-16.php:294
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:405
 msgid "Top"
 msgstr ""
 
@@ -1139,70 +1141,70 @@ msgstr ""
 msgid "Block News Ticker"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:167
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:168
 #: includes/widgets/class-aarambha-kits-block-widget-4.php:41
 msgid "Style"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:171
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:172
 #: includes/widgets/class-aarambha-kits-block-widget-4.php:43
 msgid "Style 1"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:172
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:173
 #: includes/widgets/class-aarambha-kits-block-widget-4.php:44
 msgid "Style 2"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:182
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:183
 msgid "Post Date"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:184
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:185
 msgid "Yes"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:185
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:186
 msgid "No"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:199
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:370
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:347
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:200
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:371
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:348
 msgid "Slider Settings"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:208
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:209
 msgid "Delay"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:209
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:210
 msgid "Delay between transitions (in ms)."
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:219
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:220
 msgid "Speed"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:220
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:380
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:357
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:221
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:381
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:358
 msgid "Duration of transition between slides (in ms)."
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:234
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:289
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:392
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:235
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:290
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:393
 msgid "Slides"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:311
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:333
-#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:390
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:508
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:559
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:625
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:660
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:312
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:334
+#: includes/elementor/widgets/class-aarambha-kits-block-element-2.php:391
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:509
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:560
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:626
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:661
 msgid "Text Color"
 msgstr ""
 
@@ -1210,11 +1212,11 @@ msgstr ""
 msgid "Block Featured Post"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:564
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:474
-#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:480
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:414
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:416
+#: includes/elementor/widgets/class-aarambha-kits-block-element-3.php:565
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:475
+#: includes/elementor/widgets/class-aarambha-kits-block-element-7.php:481
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:415
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:417
 msgid "Element Spacing"
 msgstr ""
 
@@ -1222,26 +1224,26 @@ msgstr ""
 msgid "Block Posts Slider"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:379
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:356
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:380
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:357
 msgid "Transition Speed"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:390
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:860
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:367
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:694
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:391
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:861
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:368
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:695
 msgid "Navigation"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:401
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:887
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:378
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:783
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:402
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:888
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:379
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:784
 msgid "Pagination"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:415
+#: includes/elementor/widgets/class-aarambha-kits-block-element-4.php:416
 msgid "Slide Content"
 msgstr ""
 
@@ -1249,105 +1251,105 @@ msgstr ""
 msgid "Block Hero Slider"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:174
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:175
 msgid "BACKGROUND"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:195
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:196
 msgid "Auto"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:196
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:197
 msgid "Contain"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:197
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:198
 msgid "Cover"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:219
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:220
 msgid "Overlay Color"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:234
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:235
 msgid "CONTENT"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:244
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:245
 msgid "Hero Slider Title"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:255
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:295
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:301
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:307
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:256
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:296
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:302
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:308
 msgid ""
 "Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis "
 "leo. Sed fringilla mauris sit amet nibh."
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:266
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:267
 msgid "Click Here"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:276
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:277
 msgid "Link"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:294
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:295
 msgid "Hero Slider 1"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:300
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:301
 msgid "Hero Slider 2"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:306
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:307
 msgid "Hero Slider 3"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:320
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:321
 msgid "Height"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:400
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:401
 msgid "Vertical Position"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:408
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:409
 msgid "Middle"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:412
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:413
 msgid "Bottom"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:428
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:429
 msgid "Alignment"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:436
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:437
 msgid "Center"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:490
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:541
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:491
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:542
 msgid "Spacing"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:707
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:708
 msgid "Normal"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:741
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:742
 msgid "Hover"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:881
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:884
 msgid "Next"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:885
+#: includes/elementor/widgets/class-aarambha-kits-block-element-6.php:888
 msgid "Previous"
 msgstr ""
 
@@ -1359,13 +1361,13 @@ msgstr ""
 msgid "Block Posts 2"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:152
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:153
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:153
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:154
 msgid "Cols Per Row"
 msgstr ""
 
-#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:170
-#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:171
+#: includes/elementor/widgets/class-aarambha-kits-block-element-8.php:171
+#: includes/elementor/widgets/class-aarambha-kits-block-element-9.php:172
 msgid "Featured Image"
 msgstr ""
 
@@ -1373,24 +1375,24 @@ msgstr ""
 msgid "Block Posts 3"
 msgstr ""
 
-#: includes/functions.php:299
+#: includes/functions.php:286
 msgid "Placeholder Image"
 msgstr ""
 
-#: includes/functions.php:416
-#. translators: %s: Post title. Only visible to screen readers.
+#: includes/functions.php:403
+#. translators: %s: Post title.
 msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
-#: includes/functions.php:539
-msgid " Min"
+#: includes/functions.php:499
+msgid "Min"
 msgstr ""
 
-#: includes/functions.php:539 includes/functions.php:540
-msgid " Sec"
+#: includes/functions.php:499 includes/functions.php:503
+msgid "Sec"
 msgstr ""
 
-#: includes/functions.php:542
+#: includes/functions.php:505
 msgid "Read"
 msgstr ""
 
@@ -1498,15 +1500,11 @@ msgstr ""
 msgid "Aarambha Kits: Block Popular Posts"
 msgstr ""
 
-#. Plugin URI of the plugin/theme
-msgid "https://aarambhathemes.com/plugins/aarambha-kits"
-msgstr ""
-
 #. Description of the plugin/theme
 msgid ""
 "Aarambha Kits is a features booster Elementor Addons plugin for your "
 "WordPress website. It allows you to create any design within a few clicks "
-"with the support of 13 free Elementor widgets and 5 free WordPress widgets."
+"with the support of 12 free Elementor widgets and 5 free WordPress widgets."
 msgstr ""
 
 #. Author of the plugin/theme
@@ -1517,8 +1515,7 @@ msgstr ""
 msgid "https://aarambhathemes.com/"
 msgstr ""
 
-#: includes/functions.php:380
-#. translators: used between list items, there is a space after the comma
+#: includes/functions.php:357
 msgctxt "list item separator"
 msgid ", "
 msgstr ""
