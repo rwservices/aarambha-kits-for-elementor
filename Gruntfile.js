@@ -13,6 +13,7 @@ module.exports = function (grunt) {
                     '**',
                     '!style - Copy.css',
                     '!resources/**',
+                    '!assets/src/**',
                     '!node_modules/**',
                     '!cypress/**',
                     '!vendor/**',
@@ -34,12 +35,15 @@ module.exports = function (grunt) {
                     '!phpcs.xml',
                     '!CONTRIBUTING.md',
                     '!phpcs.ruleset.xml',
+                    '!editorconfig.txt',
                     /**
                      * Are you developer? Then add below files.
                      */
                     '!Gruntfile.js',
                     '!postcss.config.js',
                     '!tailwind.config.js',
+                    '!babel.config.js',
+                    '!cypress.config.js',
                     '!webpack.config.js',
                     '!package.json',
                     '!package-lock.json',
@@ -49,27 +53,27 @@ module.exports = function (grunt) {
                     '!sass/**',
                     '!*.zip',
                 ],
-                dest: 'aarambha-kits/',
+                dest: 'aarambha-kits-for-elementor/',
             },
         },
 
         compress: {
             main: {
                 options: {
-                    archive: 'aarambha-kits.zip',
+                    archive: 'aarambha-kits-for-elementor.zip',
                     mode: 'zip',
                 },
                 files: [
                     {
-                        src: ['./aarambha-kits/**'],
+                        src: ['./aarambha-kits-for-elementor/**'],
                     },
                 ],
             },
         },
 
         clean: {
-            main: ['aarambha-kits'],
-            zip: ['aarambha-kits.zip'],
+            main: ['aarambha-kits-for-elementor'],
+            zip: ['aarambha-kits-for-elementor.zip'],
         },
 
         makepot: {
