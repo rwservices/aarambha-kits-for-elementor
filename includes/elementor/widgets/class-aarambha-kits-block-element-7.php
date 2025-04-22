@@ -102,7 +102,8 @@ class Aarambha_Kits_Block_Element_7 extends Base_Widget {
 	 */
 	public function get_style_depends() {
 		$styles = array(
-			'aarambha-kits-postslayout1',
+			'aarambha-kits-public',
+			'aarambha-kits-widget',
 		);
 		if ( Icons_Manager::is_migration_allowed() ) {
 			$styles[] = 'elementor-icons-fa-solid';
@@ -1051,8 +1052,8 @@ class Aarambha_Kits_Block_Element_7 extends Base_Widget {
 
 		$the_query = new WP_Query( $args );
 		?>
-		<div <?php $this->print_render_attribute_string( 'posts_layout_1_container' ); ?>>
-			<?php
+<div <?php $this->print_render_attribute_string( 'posts_layout_1_container' ); ?>>
+    <?php
 
 			if ( $the_query->have_posts() ) :
 				$i = 0;
@@ -1069,27 +1070,25 @@ class Aarambha_Kits_Block_Element_7 extends Base_Widget {
 						echo '<div class="column grid-column">'; } // add div after first item
 					?>
 
-					<div class="column">
+    <div class="column">
 
-						<div class="aarambha-kits-posts-wrapper post-<?php echo esc_attr( $i ); ?>">
+        <div class="aarambha-kits-posts-wrapper post-<?php echo esc_attr( $i ); ?>">
 
-							<div class="post-thumbnail-wrap">
+            <div class="post-thumbnail-wrap">
 
-								<a href="<?php the_permalink(); ?>" class="post-image-wrap">
-									<span class="entry-thumb"
-									<?php
+                <a href="<?php the_permalink(); ?>" class="post-image-wrap">
+                    <span class="entry-thumb" <?php
 									if ( has_post_thumbnail() ) {
 										echo ' style="background-image: url(' . esc_url( $featured_img_url ) . ')"'; }
-									?>
-									></span>
-								</a>
+									?>></span>
+                </a>
 
-							</div><!-- .post-thumbnail-wrap -->
+            </div><!-- .post-thumbnail-wrap -->
 
-							<?php if ( ! empty( $elements ) ) { ?>
+            <?php if ( ! empty( $elements ) ) { ?>
 
-								<div class="aarambha-kits-post-detail-wrap">
-									<?php
+            <div class="aarambha-kits-post-detail-wrap">
+                <?php
 									foreach ( $elements as $key => $value ) {
 										echo '<div class="element-order order-' . esc_attr( $key ) . ' element-' . esc_attr( strtolower( $value['element'] ) ) . ' elementor-repeater-item-' . esc_attr( $value['_id'] ) . '">';
 										// Post Title
@@ -1140,15 +1139,15 @@ class Aarambha_Kits_Block_Element_7 extends Base_Widget {
 										echo '</div><!-- .element-order -->';
 									}
 									?>
-								</div><!-- .aarambha-kits-post-detail-wrap -->
+            </div><!-- .aarambha-kits-post-detail-wrap -->
 
-							<?php } ?>
+            <?php } ?>
 
-						</div><!-- .aarambha-kits-posts-wrapper -->
+        </div><!-- .aarambha-kits-posts-wrapper -->
 
-					</div><!-- .column -->
-						
-					<?php
+    </div><!-- .column -->
+
+    <?php
 
 					if ( $i == 3 ) {
 						echo '</div>';
@@ -1162,10 +1161,10 @@ class Aarambha_Kits_Block_Element_7 extends Base_Widget {
 
 				wp_reset_postdata();
 				?>
-				
-			<?php endif; ?>
-		</div><!-- .aarambha-kits-container -->
-		
-		<?php
+
+    <?php endif; ?>
+</div><!-- .aarambha-kits-container -->
+
+<?php
 	}
 }

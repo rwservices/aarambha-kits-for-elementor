@@ -97,6 +97,7 @@ class Aarambha_Kits_Block_Element_1 extends Base_Widget {
 	public function get_style_depends() {
 		$styles = array(
 			'aarambha-kits-public',
+			'aarambha-kits-widget',
 		);
 		if ( Icons_Manager::is_migration_allowed() ) {
 			$styles[] = 'elementor-icons-fa-solid';
@@ -201,12 +202,12 @@ class Aarambha_Kits_Block_Element_1 extends Base_Widget {
 	protected function render() {
 		$settings = $this->get_settings_for_display();
 		?>
-		<div class="aarambha-kits-container aarambha-kits-block-heading">
-			<?php
+<div class="aarambha-kits-container aarambha-kits-block-heading">
+    <?php
 			// Displays the widget heading.
 			$this->widget_heading( $settings );
 			?>
-		</div><!-- .aarambha-kits-container -->
-		<?php
+</div><!-- .aarambha-kits-container -->
+<?php
 	}
 }

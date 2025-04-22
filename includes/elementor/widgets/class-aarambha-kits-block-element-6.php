@@ -100,7 +100,8 @@ class Aarambha_Kits_Block_Element_6 extends Base_Widget {
 	 */
 	public function get_style_depends() {
 		$styles = array(
-			'aarambha-kits-heroslider',
+			'aarambha-kits-public',
+			'aarambha-kits-widget',
 		);
 		if ( Icons_Manager::is_migration_allowed() ) {
 			$styles[] = 'elementor-icons-fa-solid';
@@ -122,7 +123,7 @@ class Aarambha_Kits_Block_Element_6 extends Base_Widget {
 	 */
 	public function get_script_depends() {
 		return array(
-			'aarambha-kits-heroslider',
+			'aarambha-kits-widget',
 		);
 	}
 
@@ -835,71 +836,73 @@ class Aarambha_Kits_Block_Element_6 extends Base_Widget {
 		$this->add_render_attribute( 'hero_slide_content', 'class', 'd-flex' );
 		$this->add_render_attribute( 'hero_slide_content', 'class', 'hero-slide-contents' );
 		?>
-		<div <?php $this->print_render_attribute_string( 'hero_slider_container' ); ?>>
+<div <?php $this->print_render_attribute_string( 'hero_slider_container' ); ?>>
 
-			<?php if ( ! empty( $settings['hero_slides'] ) ) { ?>
-				<!-- Slider main container -->
-				<div class="swiper-container">
-					<!-- Additional required wrapper -->
-					<div class="swiper-wrapper elementor-slides">
+    <?php if ( ! empty( $settings['hero_slides'] ) ) { ?>
+    <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper elementor-slides">
 
-						<?php foreach( $settings['hero_slides'] as $index => $slide ) {
+            <?php foreach( $settings['hero_slides'] as $index => $slide ) {
 							
 							// Button
 							$this->add_render_attribute( 'button_text' . $index, 'class', 'slide-button' );
 							$this->add_link_attributes( 'button_text' . $index, map_deep( wp_unslash( $slide['button_link'] ), 'sanitize_text_field' ) );
 							?>
 
-							<div class="d-flex flex-column swiper-slide hero-slide-wrapper elementor-repeater-item-<?php echo esc_attr($slide['_id']); ?>">
-								<div <?php $this->print_render_attribute_string( 'hero_slide_content' )?>>
+            <div
+                class="d-flex flex-column swiper-slide hero-slide-wrapper elementor-repeater-item-<?php echo esc_attr($slide['_id']); ?>">
+                <div <?php $this->print_render_attribute_string( 'hero_slide_content' )?>>
 
-									<div class="slide-content">
-										<?php if( $slide['title'] ) { ?>
-											<h2 class="slide-title"><?php echo esc_html( $slide['title'] ); ?></h2>
-										<?php } ?>
+                    <div class="slide-content">
+                        <?php if( $slide['title'] ) { ?>
+                        <h2 class="slide-title"><?php echo esc_html( $slide['title'] ); ?></h2>
+                        <?php } ?>
 
-										<?php if( $slide['desc'] ) { ?>
-											<div class="slide-decription"><?php echo wp_kses_post( $slide['desc'] ); ?></div>
-										<?php } ?>
+                        <?php if( $slide['desc'] ) { ?>
+                        <div class="slide-decription"><?php echo wp_kses_post( $slide['desc'] ); ?></div>
+                        <?php } ?>
 
-										<?php if ( $slide['button_text'] ) : ?>
-											<a <?php $this->print_render_attribute_string( 'button_text' . $index ); ?>><?php echo esc_html( $slide['button_text'] ); ?></a>
-										<?php endif; ?>
-									</div>
-								</div>
-							</div>
-							
-						<?php } ?>
-						
-					</div>
+                        <?php if ( $slide['button_text'] ) : ?>
+                        <a
+                            <?php $this->print_render_attribute_string( 'button_text' . $index ); ?>><?php echo esc_html( $slide['button_text'] ); ?></a>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            </div>
 
-					<?php if ( 1 < count($settings['hero_slides']) ) : ?>
-						<?php if ( $settings['navigation'] === 'yes' ) { ?>
-							<!-- next / prev arrows -->
-							<div class="hero-swiper-button-next">
-								<?php $this::render_swiper_button( 'next' ); ?>
-								<span class="screen-reader-text"><?php echo esc_html__( 'Next', 'aarambha-kits' ); ?></span>
-							</div>
-							<div class="hero-swiper-button-prev">
-								<?php $this::render_swiper_button( 'previous' ); ?>
-								<span class="screen-reader-text"><?php echo esc_html__( 'Previous', 'aarambha-kits' ); ?></span>
-							</div>
-							<!-- !next / prev arrows -->
-						<?php } ?>
+            <?php } ?>
 
-						<?php if ( $settings['pagination'] === 'yes' ) { ?>
-							<!-- pagination dots -->
-							<div class="swiper-pagination"></div>
-							<!-- !pagination dots -->
-						<?php } ?>
-					<?php endif; ?>
+        </div>
 
-				</div><!-- .swiper-container -->
+        <?php if ( 1 < count($settings['hero_slides']) ) : ?>
+        <?php if ( $settings['navigation'] === 'yes' ) { ?>
+        <!-- next / prev arrows -->
+        <div class="hero-swiper-button-next">
+            <?php $this::render_swiper_button( 'next' ); ?>
+            <span class="screen-reader-text"><?php echo esc_html__( 'Next', 'aarambha-kits' ); ?></span>
+        </div>
+        <div class="hero-swiper-button-prev">
+            <?php $this::render_swiper_button( 'previous' ); ?>
+            <span class="screen-reader-text"><?php echo esc_html__( 'Previous', 'aarambha-kits' ); ?></span>
+        </div>
+        <!-- !next / prev arrows -->
+        <?php } ?>
 
-			<?php } ?>
-			
-		</div>
-		<?php
+        <?php if ( $settings['pagination'] === 'yes' ) { ?>
+        <!-- pagination dots -->
+        <div class="swiper-pagination"></div>
+        <!-- !pagination dots -->
+        <?php } ?>
+        <?php endif; ?>
+
+    </div><!-- .swiper-container -->
+
+    <?php } ?>
+
+</div>
+<?php
 	}
 
 	 /**

@@ -102,7 +102,8 @@ class Aarambha_Kits_Block_Element_9 extends Base_Widget {
 	 */
 	public function get_style_depends() {
 		$styles = array(
-			'aarambha-kits-postslayout3',
+			'aarambha-kits-public',
+			'aarambha-kits-widget',
 		);
 		if ( Icons_Manager::is_migration_allowed() ) {
 			$styles[] = 'elementor-icons-fa-solid';
@@ -881,35 +882,35 @@ class Aarambha_Kits_Block_Element_9 extends Base_Widget {
 		$this->add_render_attribute( 'posts_layout_3_columns_wrapper', 'data-columns-lg', esc_attr($settings['column_per_row']) );
 
 		?>
-		<div <?php $this->print_render_attribute_string( 'posts_layout_3_container' ); ?>>
-			<?php
+<div <?php $this->print_render_attribute_string( 'posts_layout_3_container' ); ?>>
+    <?php
 
 			if ( $the_query->have_posts() ) :
 				?>
-			
-			<div <?php $this->print_render_attribute_string( 'posts_layout_3_columns_wrapper' ); ?>>
-				
-				<?php
+
+    <div <?php $this->print_render_attribute_string( 'posts_layout_3_columns_wrapper' ); ?>>
+
+        <?php
 				while ( $the_query->have_posts() ) :
 					$the_query->the_post();
 					$image_size  = sanitize_text_field( $settings['image_size'] );
 					$image_ratio = sanitize_text_field( $settings['image_ratio'] );
 					?>
-					
-					<div class="column">
 
-						<div class="d-md-flex d-lg-flex aarambha-kits-posts-wrapper">
+        <div class="column">
 
-							<div class="post-thumbnail-wrap">
+            <div class="d-md-flex d-lg-flex aarambha-kits-posts-wrapper">
 
-								<?php aarambha_kits_post_thumbnail( $image_size, $image_ratio ); ?>
+                <div class="post-thumbnail-wrap">
 
-							</div><!-- .post-thumbnail-wrap -->
+                    <?php aarambha_kits_post_thumbnail( $image_size, $image_ratio ); ?>
 
-							<?php if ( ! empty( $elements ) ) { ?>
+                </div><!-- .post-thumbnail-wrap -->
 
-								<div class="aarambha-kits-post-detail-wrap">
-									<?php
+                <?php if ( ! empty( $elements ) ) { ?>
+
+                <div class="aarambha-kits-post-detail-wrap">
+                    <?php
 									foreach ( $elements as $key => $value ) {
 										echo '<div class="element-order order-' . esc_attr( $key ) . ' element-' . esc_attr( strtolower( $value['element'] ) ) . ' elementor-repeater-item-' . esc_attr( $value['_id'] ) . '">';
 										// Post Title
@@ -960,23 +961,23 @@ class Aarambha_Kits_Block_Element_9 extends Base_Widget {
 										echo '</div><!-- .element-order -->';
 									}
 									?>
-								</div><!-- .aarambha-kits-post-detail-wrap -->
+                </div><!-- .aarambha-kits-post-detail-wrap -->
 
-							<?php } ?>
+                <?php } ?>
 
-						</div><!-- .aarambha-kits-posts-wrapper -->
+            </div><!-- .aarambha-kits-posts-wrapper -->
 
-					</div><!-- .column -->
-						
-				<?php endwhile; ?>
+        </div><!-- .column -->
 
-				</div><!-- .aarambha-kits-columns-wrapper -->
+        <?php endwhile; ?>
 
-				<?php wp_reset_postdata(); ?>
-				
-			<?php endif; ?>
-		</div><!-- .aarambha-kits-container -->
-		
-		<?php
+    </div><!-- .aarambha-kits-columns-wrapper -->
+
+    <?php wp_reset_postdata(); ?>
+
+    <?php endif; ?>
+</div><!-- .aarambha-kits-container -->
+
+<?php
 	}
 }

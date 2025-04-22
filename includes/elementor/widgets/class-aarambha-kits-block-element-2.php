@@ -99,7 +99,8 @@ class Aarambha_Kits_Block_Element_2 extends Base_Widget {
 	 */
 	public function get_style_depends() {
 		$styles = array(
-			'aarambha-kits-newsticker',
+			'aarambha-kits-public',
+			'aarambha-kits-widget',
 		);
 		if ( Icons_Manager::is_migration_allowed() ) {
 			$styles[] = 'elementor-icons-fa-solid';
@@ -121,7 +122,7 @@ class Aarambha_Kits_Block_Element_2 extends Base_Widget {
 	 */
 	public function get_script_depends() {
 		return array(
-			'aarambha-kits-newsticker',
+			'aarambha-kits-widget',
 		);
 	}
 
@@ -444,41 +445,41 @@ class Aarambha_Kits_Block_Element_2 extends Base_Widget {
 
 		$the_query = new WP_Query( $args );
 		?>
-		<div <?php $this->print_render_attribute_string( 'breaking_news_container' ); ?>>
-			<?php
+<div <?php $this->print_render_attribute_string( 'breaking_news_container' ); ?>>
+    <?php
 			// Displays the widget heading.
 			if ( $settings['breaking_news_style'] == 'style-1' ) {
 				$this->widget_heading( $settings ); }
 			?>
-			<?php if ( $the_query->have_posts() ) : ?>
-				<div <?php $this->print_render_attribute_string( 'breaking_news_wrap' ); ?>>
-					<?php
+    <?php if ( $the_query->have_posts() ) : ?>
+    <div <?php $this->print_render_attribute_string( 'breaking_news_wrap' ); ?>>
+        <?php
 					// Displays the widget heading.
 					if ( $settings['breaking_news_style'] == 'style-2' ) {
 						$this->widget_heading( $settings ); }
 					?>
-					<ul class="aarambha-kits-posts-list">
-					<?php
+        <ul class="aarambha-kits-posts-list">
+            <?php
 					while ( $the_query->have_posts() ) :
 						$the_query->the_post();
 						?>
-						<li>
-							<a href="<?php the_permalink(); ?>" class="d-flex flex-row post-title">
-							<?php if ( $settings['breaking_news_data_enable'] == 'yes' ) : ?>
-								<div class="publish-date"><?php echo wp_kses_post( get_the_time( 'd M' ) ); ?></div>
-							<?php endif; ?>
-							<div class="entry-title"><?php the_title(); ?></div>
-						</a>
-						</li>
-						<?php
+            <li>
+                <a href="<?php the_permalink(); ?>" class="d-flex flex-row post-title">
+                    <?php if ( $settings['breaking_news_data_enable'] == 'yes' ) : ?>
+                    <div class="publish-date"><?php echo wp_kses_post( get_the_time( 'd M' ) ); ?></div>
+                    <?php endif; ?>
+                    <div class="entry-title"><?php the_title(); ?></div>
+                </a>
+            </li>
+            <?php
 					endwhile;
 					wp_reset_postdata();
 					?>
-					</ul>
-				</div><!-- #ticker -->
-			<?php endif; ?>
-		</div><!-- .aarambha-kits-container -->
-		
-		<?php
+        </ul>
+    </div><!-- #ticker -->
+    <?php endif; ?>
+</div><!-- .aarambha-kits-container -->
+
+<?php
 	}
 }

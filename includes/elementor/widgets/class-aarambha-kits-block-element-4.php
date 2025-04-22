@@ -102,7 +102,8 @@ class Aarambha_Kits_Block_Element_4 extends Base_Widget {
 	 */
 	public function get_style_depends() {
 		$styles = array(
-			'aarambha-kits-postsslider',
+			'aarambha-kits-public',
+			'aarambha-kits-widget',
 		);
 		if ( Icons_Manager::is_migration_allowed() ) {
 			$styles[] = 'elementor-icons-fa-solid';
@@ -124,7 +125,7 @@ class Aarambha_Kits_Block_Element_4 extends Base_Widget {
 	 */
 	public function get_script_depends() {
 		return array(
-			'aarambha-kits-postsslider',
+			'aarambha-kits-widget',
 		);
 	}
 
@@ -946,29 +947,29 @@ class Aarambha_Kits_Block_Element_4 extends Base_Widget {
 		$args      = aarambha_kits_query_agrs( $settings, 1 );
 		$the_query = new WP_Query( $args );
 		?>
-		<div <?php $this->print_render_attribute_string( 'posts_slider_container' ); ?>>
-			<?php
+<div <?php $this->print_render_attribute_string( 'posts_slider_container' ); ?>>
+    <?php
 			if ( $the_query->have_posts() ) :
 				?>
-				<!-- Swiper -->
-				<div class="swiper posts-swiper-slider">
-					<div class="swiper-wrapper">
-						<?php
+    <!-- Swiper -->
+    <div class="swiper posts-swiper-slider">
+        <div class="swiper-wrapper">
+            <?php
 						while ( $the_query->have_posts() ) :
 							$the_query->the_post();
 							$image_size  	= sanitize_text_field($settings['image_size']);
 							$image_ratio	= sanitize_text_field($settings['image_ratio']);
 							?>
-						<div <?php $this->print_render_attribute_string( 'posts_slide_wrapper' ); ?>>
+            <div <?php $this->print_render_attribute_string( 'posts_slide_wrapper' ); ?>>
 
-								<div class="post-thumbnail-wrap">
-									<?php aarambha_kits_post_thumbnail( $image_size, $image_ratio ); ?>
-								</div><!-- .post-thumbnail-wrap -->
+                <div class="post-thumbnail-wrap">
+                    <?php aarambha_kits_post_thumbnail( $image_size, $image_ratio ); ?>
+                </div><!-- .post-thumbnail-wrap -->
 
-								<?php if ( ! empty( $elements ) ) { ?>
+                <?php if ( ! empty( $elements ) ) { ?>
 
-									<div class="aarambha-kits-post-detail-wrap">
-									<?php
+                <div class="aarambha-kits-post-detail-wrap">
+                    <?php
 									foreach ( $elements as $key => $value ) {
 										echo '<div class="element-order order-' . esc_attr( $key ) . ' element-' . esc_attr( strtolower( $value['element'] ) ) . ' elementor-repeater-item-' . esc_attr( $value['_id'] ) . '">';
 										// Post Title
@@ -1019,33 +1020,33 @@ class Aarambha_Kits_Block_Element_4 extends Base_Widget {
 										echo '</div><!-- .element-order -->';
 									}
 									?>
-								</div><!-- .aarambha-kits-post-detail-wrap -->
+                </div><!-- .aarambha-kits-post-detail-wrap -->
 
-								<?php } ?>
-							</div><!-- .aarambha-kits-posts-wrapper -->
-						<?php endwhile; ?>
-					</div>
+                <?php } ?>
+            </div><!-- .aarambha-kits-posts-wrapper -->
+            <?php endwhile; ?>
+        </div>
 
-					<!-- Navigation -->
-					<?php if ( $settings['navigation'] ) : ?>
-						<div class="swiper-button-next"></div>
-						<div class="swiper-button-prev"></div>
-					<?php endif; ?>
-					
+        <!-- Navigation -->
+        <?php if ( $settings['navigation'] ) : ?>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <?php endif; ?>
 
-					<!-- Pagination -->
-					<?php if ( $settings['pagination'] ) : ?>
-						<div class="swiper-pagination"></div>
-					<?php endif; ?>
-					
-				</div>
 
-				<?php wp_reset_postdata(); ?>
-				
-			<?php endif; ?>
+        <!-- Pagination -->
+        <?php if ( $settings['pagination'] ) : ?>
+        <div class="swiper-pagination"></div>
+        <?php endif; ?>
 
-		</div><!-- .aarambha-kits-container -->
-		
-		<?php
+    </div>
+
+    <?php wp_reset_postdata(); ?>
+
+    <?php endif; ?>
+
+</div><!-- .aarambha-kits-container -->
+
+<?php
 	}
 }

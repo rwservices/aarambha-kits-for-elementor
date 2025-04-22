@@ -24,7 +24,7 @@
  */
 
 // If this file is called directly, abort.
-if ( ! defined( 'WPINC' ) ) {
+if (! defined('WPINC')) {
 	die;
 }
 
@@ -37,15 +37,18 @@ if ( ! defined( 'WPINC' ) ) {
  * Update version as you release new versions.
  */
 
-define( 'AARAMBHA_KITS_PATH', plugin_dir_path( __FILE__ ) );
-define( 'AARAMBHA_KITS_URL', plugin_dir_url( __FILE__ ) );
-define( 'AARAMBHA_KITS_VERSION', '1.0.3' );
+define('AARAMBHA_KITS_PATH', plugin_dir_path(__FILE__));
+define('AARAMBHA_KITS_URL', plugin_dir_url(__FILE__));
+define('AARAMBHA_KITS_VERSION', '1.0.3');
+define('AARAMBHA_KITS_BUILD_PATH', AARAMBHA_KITS_PATH . 'assets/build');
+define('AARAMBHA_KITS_BUILD_URL', AARAMBHA_KITS_URL . 'assets/build');
+
 
 /**
  * The core plugin class that is used to define internationalization,
  * admin-specific hooks, and public-facing site hooks.
  */
-require plugin_dir_path( __FILE__ ) . 'includes/class-aarambha-kits.php';
+require plugin_dir_path(__FILE__) . 'includes/class-aarambha-kits.php';
 
 /**
  * Begins execution of the plugin.
@@ -56,10 +59,10 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-aarambha-kits.php';
  *
  * @since    1.0.0
  */
-function run_aarambha_kits() {
+function run_aarambha_kits()
+{
 
 	$plugin = new Aarambha_Kits();
 	$plugin->run();
-
 }
 run_aarambha_kits();

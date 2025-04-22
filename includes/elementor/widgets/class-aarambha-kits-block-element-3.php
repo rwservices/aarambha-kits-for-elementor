@@ -100,7 +100,8 @@ class Aarambha_Kits_Block_Element_3 extends Base_Widget {
 	 */
 	public function get_style_depends() {
 		$styles = array(
-			'aarambha-kits-featuredpost',
+			'aarambha-kits-public',
+			'aarambha-kits-widget',
 		);
 		if ( Icons_Manager::is_migration_allowed() ) {
 			$styles[] = 'elementor-icons-fa-solid';
@@ -1136,17 +1137,17 @@ class Aarambha_Kits_Block_Element_3 extends Base_Widget {
 
 		$the_query = new WP_Query( $args );
 		?>
-		<div <?php $this->print_render_attribute_string( 'featured_posts_container' ); ?>>
-			<?php
+<div <?php $this->print_render_attribute_string( 'featured_posts_container' ); ?>>
+    <?php
 			if ( $the_query->have_posts() ) :
 				$counter = 1;
 				?>
-			
-				<div class="aarambha-kits-featured-posts-wrapper">
-				
-					<div class="aarambha-kits-featured-post">
-					
-						<?php
+
+    <div class="aarambha-kits-featured-posts-wrapper">
+
+        <div class="aarambha-kits-featured-post">
+
+            <?php
 						while ( $the_query->have_posts() ) :
 							$the_query->the_post();
 							$elements    = ( $counter == 1 ) ? $original_elements : $removed_elements;
@@ -1154,19 +1155,19 @@ class Aarambha_Kits_Block_Element_3 extends Base_Widget {
 							$image_ratio = ( $counter == 1 ) ? '3x2' : '1x1';
 							$image_size  = sanitize_text_field( $settings['image_size'] );
 							?>
-						<div class="<?php echo esc_attr( $class_outer ); ?>">
-							<div class="aarambha-kits-posts-wrapper">
+            <div class="<?php echo esc_attr( $class_outer ); ?>">
+                <div class="aarambha-kits-posts-wrapper">
 
-								<div class="post-thumbnail-wrap">
+                    <div class="post-thumbnail-wrap">
 
-									<?php aarambha_kits_post_thumbnail( $image_size, $image_ratio ); ?>
+                        <?php aarambha_kits_post_thumbnail( $image_size, $image_ratio ); ?>
 
-								</div><!-- .post-thumbnail-wrap -->
+                    </div><!-- .post-thumbnail-wrap -->
 
-								<?php if ( ! empty( $elements ) ) { ?>
+                    <?php if ( ! empty( $elements ) ) { ?>
 
-									<div class="aarambha-kits-post-detail-wrap">
-										<?php
+                    <div class="aarambha-kits-post-detail-wrap">
+                        <?php
 										foreach ( $elements as $key => $value ) {
 											echo '<div class="element-order order-' . esc_attr( $key ) . ' element-' . esc_attr( strtolower( $value['element'] ) ) . ' elementor-repeater-item-' . esc_attr( $value['_id'] ) . '">';
 											// Post Title
@@ -1217,14 +1218,14 @@ class Aarambha_Kits_Block_Element_3 extends Base_Widget {
 											echo '</div><!-- .element-order -->';
 										}
 										?>
-									</div><!-- .aarambha-kits-post-detail-wrap -->
+                    </div><!-- .aarambha-kits-post-detail-wrap -->
 
-								<?php } ?>
+                    <?php } ?>
 
-							</div><!-- .aarambha-kits-posts-wrapper -->
-						</div>
-						
-							<?php
+                </div><!-- .aarambha-kits-posts-wrapper -->
+            </div>
+
+            <?php
 
 							if ( $counter == 1 ) {
 								echo '</div><!-- .column --><div class="columns aarambha-kits-grid-posts" data-columns="1" data-columns-md="3" data-columns-lg="3">'; }
@@ -1234,15 +1235,15 @@ class Aarambha_Kits_Block_Element_3 extends Base_Widget {
 						endwhile;
 						?>
 
-					</div><!-- .column -->
+        </div><!-- .column -->
 
-				</div><!-- .aarambha-kits-featured-posts-wrapper -->
+    </div><!-- .aarambha-kits-featured-posts-wrapper -->
 
-				<?php wp_reset_postdata(); ?>
-				
-			<?php endif; ?>
-		</div><!-- .aarambha-kits-container -->
-		
-		<?php
+    <?php wp_reset_postdata(); ?>
+
+    <?php endif; ?>
+</div><!-- .aarambha-kits-container -->
+
+<?php
 	}
 }

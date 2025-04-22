@@ -100,7 +100,8 @@ class Aarambha_Kits_Block_Element_15 extends Base_Widget {
 	 */
 	public function get_style_depends() {
 		$styles = array(
-			'aarambha-kits-cta',
+			'aarambha-kits-public',
+			'aarambha-kits-widget',
 		);
 		if ( Icons_Manager::is_migration_allowed() ) {
 			$styles[] = 'elementor-icons-fa-solid';
@@ -728,22 +729,22 @@ class Aarambha_Kits_Block_Element_15 extends Base_Widget {
 		$this->add_render_attribute( 'button_text', 'class', 'button-link d-inline-flex align-items-center overflow-hidden transition-35s' );
 		$this->add_link_attributes( 'button_text', map_deep( wp_unslash( $settings['button_link'] ), 'sanitize_text_field' ) );
 		?>
-		<div class="aarambha-kits-container aarambha-kits-block-cta-container">
-			
-			<div class="d-flex flex-<?php echo esc_attr( $settings['icon_position'] ); ?> aarambha-kits-cta-wrapper">
-				
-				<?php if ( ! empty( $settings['cta_icon']['value'] ) ) : ?>
-					<div class="d-flex icon-wrap">
-						<span class="icon">
-							<?php Icons_Manager::render_icon( map_deep( wp_unslash( $settings['cta_icon'] ), 'sanitize_text_field' ), [ 'aria-hidden' => 'true' ] ); ?>
-						</span>
-					</div><!-- .icon-wrap -->
-				<?php endif; ?>
+<div class="aarambha-kits-container aarambha-kits-block-cta-container">
+
+    <div class="d-flex flex-<?php echo esc_attr( $settings['icon_position'] ); ?> aarambha-kits-cta-wrapper">
+
+        <?php if ( ! empty( $settings['cta_icon']['value'] ) ) : ?>
+        <div class="d-flex icon-wrap">
+            <span class="icon">
+                <?php Icons_Manager::render_icon( map_deep( wp_unslash( $settings['cta_icon'] ), 'sanitize_text_field' ), [ 'aria-hidden' => 'true' ] ); ?>
+            </span>
+        </div><!-- .icon-wrap -->
+        <?php endif; ?>
 
 
-				<div class="details-wrap">
-					
-					<?php
+        <div class="details-wrap">
+
+            <?php
 					if ( ! empty( $settings['title'] ) ) :
 						printf( '<%1$s class="entry-title">%2$s</%1$s>',
 							Utils::validate_html_tag( $settings['title_html_tag'] ),
@@ -752,24 +753,25 @@ class Aarambha_Kits_Block_Element_15 extends Base_Widget {
 					endif;
 					?>
 
-					<?php if ( ! empty( $settings['description'] ) ) : ?>
-						<div class="entry-content">
-							<p><?php echo wp_kses_post( $settings['description'] ); ?></p>
-						</div><!-- .entry-content -->
-					<?php endif; ?>
+            <?php if ( ! empty( $settings['description'] ) ) : ?>
+            <div class="entry-content">
+                <p><?php echo wp_kses_post( $settings['description'] ); ?></p>
+            </div><!-- .entry-content -->
+            <?php endif; ?>
 
-					<?php if ( $settings['button_text'] ) : ?>
-						<div class="d-flex button-wrap">
-							<a <?php $this->print_render_attribute_string( 'button_text' ); ?>><?php echo esc_html( $settings['button_text'] ); ?></a>
-						</div>
-					<?php endif; ?>
+            <?php if ( $settings['button_text'] ) : ?>
+            <div class="d-flex button-wrap">
+                <a
+                    <?php $this->print_render_attribute_string( 'button_text' ); ?>><?php echo esc_html( $settings['button_text'] ); ?></a>
+            </div>
+            <?php endif; ?>
 
-				</div>
-				
-			</div><!-- .aarambha-kits-cta-wrapper -->
+        </div>
 
-		</div><!-- .aarambha-kits-container -->
-		
-		<?php
+    </div><!-- .aarambha-kits-cta-wrapper -->
+
+</div><!-- .aarambha-kits-container -->
+
+<?php
 	}
 }

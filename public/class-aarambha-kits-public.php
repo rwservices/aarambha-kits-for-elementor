@@ -63,56 +63,14 @@ class Aarambha_Kits_Public {
 
 		$style_list = array(
 			'swiper'      => array(
-				'src'     => AARAMBHA_KITS_URL . 'library/swiper/swiper-bundle.css',
+				'src'     => AARAMBHA_KITS_URL . 'assets/build/library/swiper/swiper-bundle.css',
 				'version' => '8.0.7',
 			),
-			'aarambha-kits-heroslider'   => array(
-				'src'     => AARAMBHA_KITS_URL . 'build/heroslider/index.css',
+			'aarambha-kits-widget'   => array(
+				'src'     => AARAMBHA_KITS_URL . 'assets/build/css/widget.css',
 				'version' => AARAMBHA_KITS_VERSION,
 				'deps'    => array( 'swiper' ),
 			),
-			'aarambha-kits-newsticker'   => array(
-				'src'     => AARAMBHA_KITS_URL . 'build/newsticker/index.css',
-				'version' => AARAMBHA_KITS_VERSION,
-			),
-			'aarambha-kits-postslayout1' => array(
-				'src'     => AARAMBHA_KITS_URL . 'build/postslayout1/index.css',
-				'version' => AARAMBHA_KITS_VERSION,
-			),
-			'aarambha-kits-postslayout2' => array(
-				'src'     => AARAMBHA_KITS_URL . 'build/postslayout2/index.css',
-				'version' => AARAMBHA_KITS_VERSION,
-			),
-			'aarambha-kits-postslayout3' => array(
-				'src'     => AARAMBHA_KITS_URL . 'build/postslayout3/index.css',
-				'version' => AARAMBHA_KITS_VERSION,
-			),
-			'aarambha-kits-postslayout4' => array(
-				'src'     => AARAMBHA_KITS_URL . 'build/postslayout4/index.css',
-				'version' => AARAMBHA_KITS_VERSION,
-			),
-			'aarambha-kits-postslayout5' => array(
-				'src'     => AARAMBHA_KITS_URL . 'build/postslayout5/index.css',
-				'version' => AARAMBHA_KITS_VERSION,
-			),
-			'aarambha-kits-postsslider'  => array(
-				'src'     => AARAMBHA_KITS_URL . 'build/postsslider/index.css',
-				'version' => AARAMBHA_KITS_VERSION,
-				'deps'    => array( 'swiper' ),
-			),
-			'aarambha-kits-featuredpost' => array(
-				'src'     => AARAMBHA_KITS_URL . 'build/featuredpost/index.css',
-				'version' => AARAMBHA_KITS_VERSION,
-			),
-			'aarambha-kits-cta'          => array(
-				'src'     => AARAMBHA_KITS_URL . 'build/cta/index.css',
-				'version' => AARAMBHA_KITS_VERSION,
-			),
-			'aarambha-kits-service'      => array(
-				'src'     => AARAMBHA_KITS_URL . 'build/service/index.css',
-				'version' => AARAMBHA_KITS_VERSION,
-			),
-
 		);
 		return $style_list;
 
@@ -128,29 +86,19 @@ class Aarambha_Kits_Public {
 		$script_list = array(
 
 			'swiper'      => array(
-				'src'     => AARAMBHA_KITS_URL . 'library/swiper/swiper-bundle.js',
+				'src'     => AARAMBHA_KITS_URL . 'assets/build/library/swiper/swiper-bundle.js',
 				'version' => '8.0.7',
 				'deps'    => array( 'jquery' ),
 			),
 			'newsTicker'  => array(
-				'src'     => AARAMBHA_KITS_URL . 'library/jquery-newsTicker/jquery.newsTicker.js',
+				'src'     => AARAMBHA_KITS_URL . 'assets/build/library/jquery-newsTicker/jquery.newsTicker.js',
 				'version' => '1.0.11',
 				'deps'    => array( 'jquery' ),
 			),
-			'aarambha-kits-heroslider'   => array(
-				'src'     => AARAMBHA_KITS_URL . 'build/heroslider/index.js',
+			'aarambha-kits-widget'   => array(
+				'src'     => AARAMBHA_KITS_URL . 'assets/build/js/widget.js',
 				'version' => AARAMBHA_KITS_VERSION,
-				'deps'    => array( 'swiper' ),
-			),
-			'aarambha-kits-newsticker'   => array(
-				'src'     => AARAMBHA_KITS_URL . 'build/newsticker/index.js',
-				'version' => AARAMBHA_KITS_VERSION,
-				'deps'    => array( 'newsTicker' ),
-			),
-			'aarambha-kits-postsslider'  => array(
-				'src'     => AARAMBHA_KITS_URL . 'build/postsslider/index.js',
-				'version' => AARAMBHA_KITS_VERSION,
-				'deps'    => array( 'swiper' ),
+				'deps'    => array( 'swiper', 'newsTicker' ),
 			),
 		);
 
@@ -181,11 +129,11 @@ class Aarambha_Kits_Public {
 		 */
 
 		 // Enquery Script
-		wp_enqueue_script( 'aarambha-kits-public', AARAMBHA_KITS_URL . 'build/public/index.js', array( 'jquery' ), AARAMBHA_KITS_VERSION );
+		wp_enqueue_script( 'aarambha-kits-public', AARAMBHA_KITS_URL . 'assets/build/js/public.js', array( 'jquery' ), AARAMBHA_KITS_VERSION );
 		wp_script_add_data( 'aarambha-kits-public', 'strategy', 'defer' );
 
 		// Enquery Styles
-		wp_enqueue_style( 'aarambha-kits-public', AARAMBHA_KITS_URL . 'build/public/index.css', false, AARAMBHA_KITS_VERSION );
+		wp_enqueue_style( 'aarambha-kits-public', AARAMBHA_KITS_URL . 'assets/build/css/public.css', false, AARAMBHA_KITS_VERSION );
 
 		// inline style
 		wp_add_inline_style( 'aarambha-kits-public', Aarambha_Kits_Inline_Style::css_output( 'front-end' ) );
