@@ -16,7 +16,7 @@
  * Plugin Name:       Aarambha Kits for Elementor
  * Plugin URI:        https://aarambhathemes.com/plugins/aarambha-kits
  * Description:       Aarambha Kits is a features booster Elementor Addons plugin for your WordPress website. It allows you to create any design within a few clicks with the support of 12 free Elementor widgets and 5 free WordPress widgets.
- * Version:           1.0.3
+ * Version:           1.0.4
  * Author:            Aarambha Themes
  * Author URI:        https://aarambhathemes.com/
  * Text Domain:       aarambha-kits
@@ -39,7 +39,7 @@ if (! defined('WPINC')) {
 
 define('AARAMBHA_KITS_PATH', plugin_dir_path(__FILE__));
 define('AARAMBHA_KITS_URL', plugin_dir_url(__FILE__));
-define('AARAMBHA_KITS_VERSION', '1.0.3');
+define('AARAMBHA_KITS_VERSION', '1.0.4');
 define('AARAMBHA_KITS_BUILD_PATH', AARAMBHA_KITS_PATH . 'assets/build');
 define('AARAMBHA_KITS_BUILD_URL', AARAMBHA_KITS_URL . 'assets/build');
 

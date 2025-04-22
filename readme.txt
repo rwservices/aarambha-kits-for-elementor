@@ -4,8 +4,8 @@ Contributors: aarambhathemes
 Tags: elementor, addons, elements, elementor addon, elementor widget, page-builder, WordPress page builder, elementor extensions, elementor page builder
 Requires at least: 5.6
 Requires PHP: 7.0
-Tested up to: 6.4
-Stable tag: 1.0.3
+Tested up to: 6.8
+Stable tag: 1.0.4
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
