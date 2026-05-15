@@ -1,154 +1,11 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./assets/src/css/cta.css":
-/*!********************************!*\
-  !*** ./assets/src/css/cta.css ***!
-  \********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./assets/src/css/featured-post.css":
-/*!******************************************!*\
-  !*** ./assets/src/css/featured-post.css ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./assets/src/css/hero-slider.css":
-/*!****************************************!*\
-  !*** ./assets/src/css/hero-slider.css ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./assets/src/css/news-ticker.css":
-/*!****************************************!*\
-  !*** ./assets/src/css/news-ticker.css ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./assets/src/css/post-layout-1.css":
-/*!******************************************!*\
-  !*** ./assets/src/css/post-layout-1.css ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./assets/src/css/post-layout-2.css":
-/*!******************************************!*\
-  !*** ./assets/src/css/post-layout-2.css ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./assets/src/css/post-layout-3.css":
-/*!******************************************!*\
-  !*** ./assets/src/css/post-layout-3.css ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./assets/src/css/post-layout-4.css":
-/*!******************************************!*\
-  !*** ./assets/src/css/post-layout-4.css ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./assets/src/css/post-layout-5.css":
-/*!******************************************!*\
-  !*** ./assets/src/css/post-layout-5.css ***!
-  \******************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./assets/src/css/post-slider.css":
-/*!****************************************!*\
-  !*** ./assets/src/css/post-slider.css ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./assets/src/css/service.css":
-/*!************************************!*\
-  !*** ./assets/src/css/service.css ***!
-  \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
-/***/ "./assets/src/js/widget/hero-slider.js":
+/***/ "./assets/src/js/widget/hero-slider.js"
 /*!*********************************************!*\
   !*** ./assets/src/js/widget/hero-slider.js ***!
   \*********************************************/
-/***/ (() => {
+() {
 
 // Scripts
 (function ($) {
@@ -242,13 +99,13 @@ __webpack_require__.r(__webpack_exports__);
   });
 })(jQuery);
 
-/***/ }),
+/***/ },
 
-/***/ "./assets/src/js/widget/news-ticker.js":
+/***/ "./assets/src/js/widget/news-ticker.js"
 /*!*********************************************!*\
   !*** ./assets/src/js/widget/news-ticker.js ***!
   \*********************************************/
-/***/ (() => {
+() {
 
 // Scripts
 (function ($) {
@@ -314,13 +171,13 @@ __webpack_require__.r(__webpack_exports__);
   });
 })(jQuery);
 
-/***/ }),
+/***/ },
 
-/***/ "./assets/src/js/widget/post-slider.js":
+/***/ "./assets/src/js/widget/post-slider.js"
 /*!*********************************************!*\
   !*** ./assets/src/js/widget/post-slider.js ***!
   \*********************************************/
-/***/ (() => {
+() {
 
 (function ($) {
   "use strict";
@@ -408,7 +265,150 @@ __webpack_require__.r(__webpack_exports__);
 console.log("🚀 ~ $wclass:", $wclass);
 console.log("🚀 ~ $wclass:", $wclass);
 
-/***/ })
+/***/ },
+
+/***/ "./assets/src/css/cta.css"
+/*!********************************!*\
+  !*** ./assets/src/css/cta.css ***!
+  \********************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ },
+
+/***/ "./assets/src/css/featured-post.css"
+/*!******************************************!*\
+  !*** ./assets/src/css/featured-post.css ***!
+  \******************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ },
+
+/***/ "./assets/src/css/hero-slider.css"
+/*!****************************************!*\
+  !*** ./assets/src/css/hero-slider.css ***!
+  \****************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ },
+
+/***/ "./assets/src/css/news-ticker.css"
+/*!****************************************!*\
+  !*** ./assets/src/css/news-ticker.css ***!
+  \****************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ },
+
+/***/ "./assets/src/css/post-layout-1.css"
+/*!******************************************!*\
+  !*** ./assets/src/css/post-layout-1.css ***!
+  \******************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ },
+
+/***/ "./assets/src/css/post-layout-2.css"
+/*!******************************************!*\
+  !*** ./assets/src/css/post-layout-2.css ***!
+  \******************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ },
+
+/***/ "./assets/src/css/post-layout-3.css"
+/*!******************************************!*\
+  !*** ./assets/src/css/post-layout-3.css ***!
+  \******************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ },
+
+/***/ "./assets/src/css/post-layout-4.css"
+/*!******************************************!*\
+  !*** ./assets/src/css/post-layout-4.css ***!
+  \******************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ },
+
+/***/ "./assets/src/css/post-layout-5.css"
+/*!******************************************!*\
+  !*** ./assets/src/css/post-layout-5.css ***!
+  \******************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ },
+
+/***/ "./assets/src/css/post-slider.css"
+/*!****************************************!*\
+  !*** ./assets/src/css/post-slider.css ***!
+  \****************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ },
+
+/***/ "./assets/src/css/service.css"
+/*!************************************!*\
+  !*** ./assets/src/css/service.css ***!
+  \************************************/
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }
 
 /******/ 	});
 /************************************************************************/
@@ -430,6 +430,12 @@ console.log("🚀 ~ $wclass:", $wclass);
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
+/******/ 		if (!(moduleId in __webpack_modules__)) {
+/******/ 			delete __webpack_module_cache__[moduleId];
+/******/ 			var e = new Error("Cannot find module '" + moduleId + "'");
+/******/ 			e.code = 'MODULE_NOT_FOUND';
+/******/ 			throw e;
+/******/ 		}
 /******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Return the exports of the module
