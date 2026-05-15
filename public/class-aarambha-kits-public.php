@@ -64,7 +64,7 @@ class Aarambha_Kits_Public {
 		$style_list = array(
 			'swiper'      => array(
 				'src'     => AARAMBHA_KITS_URL . 'assets/build/library/swiper/swiper-bundle.css',
-				'version' => '8.0.7',
+				'version' => '12.1.4',
 			),
 			'aarambha-kits-widget'   => array(
 				'src'     => AARAMBHA_KITS_URL . 'assets/build/css/widget.css',
@@ -87,7 +87,7 @@ class Aarambha_Kits_Public {
 
 			'swiper'      => array(
 				'src'     => AARAMBHA_KITS_URL . 'assets/build/library/swiper/swiper-bundle.js',
-				'version' => '8.0.7',
+				'version' => '12.1.4',
 				'deps'    => array( 'jquery' ),
 			),
 			'newsTicker'  => array(
@@ -128,16 +128,6 @@ class Aarambha_Kits_Public {
 		 * class.
 		 */
 
-		 // Enquery Script
-		wp_enqueue_script( 'aarambha-kits-public', AARAMBHA_KITS_URL . 'assets/build/js/public.js', array( 'jquery' ), AARAMBHA_KITS_VERSION );
-		wp_script_add_data( 'aarambha-kits-public', 'strategy', 'defer' );
-
-		// Enquery Styles
-		wp_enqueue_style( 'aarambha-kits-public', AARAMBHA_KITS_URL . 'assets/build/css/public.css', false, AARAMBHA_KITS_VERSION );
-
-		// inline style
-		wp_add_inline_style( 'aarambha-kits-public', Aarambha_Kits_Inline_Style::css_output( 'front-end' ) );
-
 		$scripts = self::get_scripts();
 		$styles  = self::get_styles();
 
@@ -153,6 +143,20 @@ class Aarambha_Kits_Public {
 			$deps = ( isset( $style['deps'] ) ? $style['deps'] : false );
 			wp_register_style( $handle, $style['src'], $deps, $style['version'] );
 		}
+		
+		// Enqueue the main widget script and style which depend on swiper and newsTicker
+		wp_enqueue_script( 'aarambha-kits-widget' );
+		wp_enqueue_style( 'aarambha-kits-widget' );
+
+		// Enqueue public.js
+		wp_enqueue_script( 'aarambha-kits-public', AARAMBHA_KITS_URL . 'assets/build/js/public.js', array( 'jquery' ), AARAMBHA_KITS_VERSION );
+		wp_script_add_data( 'aarambha-kits-public', 'strategy', 'defer' );
+
+		// Enqueue public.css
+		wp_enqueue_style( 'aarambha-kits-public', AARAMBHA_KITS_URL . 'assets/build/css/public.css', false, AARAMBHA_KITS_VERSION );
+
+		// Inline style
+		wp_add_inline_style( 'aarambha-kits-public', Aarambha_Kits_Inline_Style::css_output( 'front-end' ) );
 
 	}
 
