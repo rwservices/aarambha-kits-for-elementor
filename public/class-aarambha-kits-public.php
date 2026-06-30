@@ -20,7 +20,8 @@
  * @subpackage Aarambha_Kits/public
  * @author     Aarambha Themes <aarambhathemes@gmail.com>
  */
-class Aarambha_Kits_Public {
+class Aarambha_Kits_Public
+{
 
 	/**
 	 * The ID of this plugin.
@@ -47,63 +48,11 @@ class Aarambha_Kits_Public {
 	 * @param      string $plugin_name       The name of the plugin.
 	 * @param      string $version    The version of this plugin.
 	 */
-	public function __construct( $plugin_name, $version ) {
+	public function __construct($plugin_name, $version)
+	{
 
 		$this->plugin_name = $plugin_name;
 		$this->version     = $version;
-
-	}
-
-	/**
-	 * [get_styles] All Style
-	 *
-	 * @return [array]
-	 */
-	public function get_styles() {
-
-		$style_list = array(
-			'swiper'      => array(
-				'src'     => AARAMBHA_KITS_URL . 'assets/build/library/swiper/swiper-bundle.css',
-				'version' => '12.1.4',
-			),
-			'aarambha-kits-widget'   => array(
-				'src'     => AARAMBHA_KITS_URL . 'assets/build/css/widget.css',
-				'version' => AARAMBHA_KITS_VERSION,
-				'deps'    => array( 'swiper' ),
-			),
-		);
-		return $style_list;
-
-	}
-
-	/**
-	 * [get_scripts] All Script
-	 *
-	 * @return [array]
-	 */
-	public function get_scripts() {
-
-		$script_list = array(
-
-			'swiper'      => array(
-				'src'     => AARAMBHA_KITS_URL . 'assets/build/library/swiper/swiper-bundle.js',
-				'version' => '12.1.4',
-				'deps'    => array( 'jquery' ),
-			),
-			'newsTicker'  => array(
-				'src'     => AARAMBHA_KITS_URL . 'assets/build/library/jquery-newsTicker/jquery.newsTicker.js',
-				'version' => '1.0.11',
-				'deps'    => array( 'jquery' ),
-			),
-			'aarambha-kits-widget'   => array(
-				'src'     => AARAMBHA_KITS_URL . 'assets/build/js/widget.js',
-				'version' => AARAMBHA_KITS_VERSION,
-				'deps'    => array( 'swiper', 'newsTicker' ),
-			),
-		);
-
-		return $script_list;
-
 	}
 
 
@@ -114,50 +63,28 @@ class Aarambha_Kits_Public {
 	 *
 	 * @since    1.0.0
 	 */
-	public function enqueue_resources() {
+	public function enqueue_resources()
+	{
 
-		/**
-		 * This function is provided for demonstration purposes only.
-		 *
-		 * An instance of this class should be passed to the run() function
-		 * defined in Aarambha_Kits_Loader as all of the hooks are defined
-		 * in that particular class.
-		 *
-		 * The Aarambha_Kits_Loader will then create the relationship
-		 * between the defined hooks and the functions defined in this
-		 * class.
-		 */
+		// Enqueue Scripts
+		wp_enqueue_script('swiper', AARAMBHA_KITS_URL . 'assets/build/library/swiper/swiper-bundle.js', array('jquery'), '12.1.4');
+		wp_script_add_data('swiper', 'strategy', 'defer');
 
-		$scripts = self::get_scripts();
-		$styles  = self::get_styles();
+		wp_enqueue_script('newsTicker', AARAMBHA_KITS_URL . 'assets/library/jquery-newsTicker/jquery.newsTicker.js', array('jquery'), '1.0.11');
+		wp_script_add_data('newsTicker', 'strategy', 'defer');
 
-		// Register Scripts
-		foreach ( $scripts as $handle => $script ) {
-			$deps = ( isset( $script['deps'] ) ? $script['deps'] : false );
-			wp_register_script( $handle, $script['src'], $deps, $script['version'], true );
-			wp_script_add_data( $handle, 'strategy', 'defer' );
-		}
-		
-		// Register Styles
-		foreach ( $styles as $handle => $style ) {
-			$deps = ( isset( $style['deps'] ) ? $style['deps'] : false );
-			wp_register_style( $handle, $style['src'], $deps, $style['version'] );
-		}
-		
-		// Enqueue the main widget script and style which depend on swiper and newsTicker
-		wp_enqueue_script( 'aarambha-kits-widget' );
-		wp_enqueue_style( 'aarambha-kits-widget' );
+		wp_enqueue_script('aarambha-kits-public', AARAMBHA_KITS_URL . 'assets/build/js/public.js', array('jquery'), AARAMBHA_KITS_VERSION);
+		wp_script_add_data('aarambha-kits-public', 'strategy', 'defer');
 
-		// Enqueue public.js
-		wp_enqueue_script( 'aarambha-kits-public', AARAMBHA_KITS_URL . 'assets/build/js/public.js', array( 'jquery' ), AARAMBHA_KITS_VERSION );
-		wp_script_add_data( 'aarambha-kits-public', 'strategy', 'defer' );
+		wp_enqueue_script('aarambha-kits-widget', AARAMBHA_KITS_URL . 'assets/build/js/widget.js', array('swiper', 'newsTicker'), AARAMBHA_KITS_VERSION);
+		wp_script_add_data('aarambha-kits-widget', 'strategy', 'defer');
 
-		// Enqueue public.css
-		wp_enqueue_style( 'aarambha-kits-public', AARAMBHA_KITS_URL . 'assets/build/css/public.css', false, AARAMBHA_KITS_VERSION );
+		// Enqueue Styles
+		wp_enqueue_style('swiper', AARAMBHA_KITS_URL . 'assets/build/library/swiper/swiper-bundle.css', false, '12.1.4');
+		wp_enqueue_style('aarambha-kits-public', AARAMBHA_KITS_URL . 'assets/build/css/public.css', false, AARAMBHA_KITS_VERSION);
+		wp_enqueue_style('aarambha-kits-widget', AARAMBHA_KITS_URL . 'assets/build/css/widget.css', array('swiper'), AARAMBHA_KITS_VERSION);
 
 		// Inline style
-		wp_add_inline_style( 'aarambha-kits-public', Aarambha_Kits_Inline_Style::css_output( 'front-end' ) );
-
+		wp_add_inline_style('aarambha-kits-public', Aarambha_Kits_Inline_Style::css_output('front-end'));
 	}
-
 }
